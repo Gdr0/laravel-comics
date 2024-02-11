@@ -2,6 +2,6 @@
 @section('head')
     <title>Home</title>
 @endsection
-@section('content')
-    <h1>Hello, World!</h1>
-@endsection
+@include('components.header')
+@include('components.comics')
+@include('components.footer')
