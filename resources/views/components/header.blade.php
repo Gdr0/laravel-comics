@@ -5,7 +5,7 @@
         <img src="/img/dc-logo.png" alt="" />
       </div>
       <nav class="menuNav " >
-        <ul class="d-flex ">
+        <ul class="d-flex align-items-center">
         <li> CHARACTER</li>
            <li>COMICS</li>
            <li>MOVIES</li>

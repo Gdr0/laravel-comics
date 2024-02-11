@@ -244,7 +244,36 @@ Route::get('/', function () {
             "url" => "#",
         ],
     ];
+
+$socialMedia = [
+    [
+        'img' => '/img/footer-facebook.png',
+        'title' => 'Facebook',
+        'url' => '#',
+    ],
+    [
+        'img' => '/img/footer-periscope.png',
+        'title' => 'Periscope',
+        'url' => '#',
+    ],
+    [
+        'img' => '/img/footer-pinterest.png',
+        'title' => 'Pinterest',
+        'url' => '#',
+    ],
+    [
+        'img' => '/img/footer-twitter.png',
+        'title' => 'Twitter',
+        'url' => '#',
+    ],
+    [
+        'img' => '/img/footer-youtube.png',
+        'title' => 'YouTube',
+        'url' => '#',
+    ],
+];
+
     return view('pages.index', [ 'comics' => $comics,
-    'dcElements' => $dcElements,]);
+    'dcElements' => $dcElements, 'socialMedia' => $socialMedia]);
   
 });

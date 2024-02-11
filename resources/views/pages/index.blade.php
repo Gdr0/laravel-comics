@@ -5,5 +5,5 @@
 @include('components.header')
 @include('components.jumbo')
 @include('components.comics')
-@include('components.footer')
 @include('components.dcElements')
+@include('components.footer')
