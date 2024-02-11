@@ -58,3 +58,23 @@ header {
     background-image: url("/img/jumbotron.jpg");
     background-size: cover;
 }
+
+.dcElements {
+    background-color: #0282f9;
+    ul {
+        padding: 30px;
+        gap: 30px;
+
+        li a {
+            display: inline-block;
+            padding: 1rem;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 10px;
+            color: white;
+        }
+        li img {
+            width: 40px;
+        }
+    }
+}

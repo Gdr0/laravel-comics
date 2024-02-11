@@ -6,3 +6,4 @@
 @include('components.jumbo')
 @include('components.comics')
 @include('components.footer')
+@include('components.dcElements')
